@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+hr {
+  border: 2px dashed gray;
+  width: 5%;
+  margin: 2% 50%;
+}
+body {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.2em;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  /* position: -webkit-sticky; */
+  position: sticky ;
+  top: 0;
+  }
+#nav-bar {
+  margin-top: 5%;
+  /* background-color: aqua; */
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: dimgray;
+}
+#header-img {
+  height: 10em;
+  width: 10em;
+  border-radius: 10em;
+}
+#overview {
+  margin: 1% 0;
+}
+.overview {
+  margin: 1% 0;
+}
+#pricing {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 0;
+}
+
+.iframe {
+  margin: 0 25%;
+}
+#form {
+  margin: 5% 25%;
+}
+input {
+  color: gray;
+  padding: 0.3em;
+  border: 0.1em solid dimgray;
+}
+#contact {
+  /* font-size: 1.2em; */
+  color: wheat;
+  background-color: gray;
+  text-align: center;
+}
+.fa-brands {
+  /* font-size: 1.2em; */
+  background-color: wheat;
+}
+.top {
+  color: gray;
+  position: -webkit-sticky;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #cae8ca;
+}
